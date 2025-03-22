@@ -3,9 +3,14 @@ import headerimage from "../../assets/header-img.png";
 
 const Header = () => {
 	return <div className="header">
-		<img className="headerImg" src={headerimage} alt="header section image"/>
+		<img src={headerimage} alt="header logo" className="headerImg"/>
+
 		<h1 className="headerHeading">
-			Are You <br/> Struggling to <br/> Hire Good Talent <br/> Within Your <br/> Budget?
+			Are You <br/>
+			Struggling to <br/>
+			Hire Good Talent <br/>
+			Within Your <br/>
+			Budget?
 		</h1>
 
 		<button className="headerBtn">
